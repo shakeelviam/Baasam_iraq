@@ -187,12 +187,13 @@ html, body {
 .elem img {
     opacity: 0;
     pointer-events: none;
-    height: 140%;
+    border-radius: 100px;
+    height: 20vw;
+    width: 20vw;
     z-index: 999;
     position: absolute;
     transform: translate(-50%, -50%);
 }
-
 #about {
     display: flex;
     align-items: center;
